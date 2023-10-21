@@ -24,5 +24,5 @@ def arabic_to_romanian (num): #функция преобразования ар�
             romanian_num += symbol #добавляем римский символ
             num -= value#вычитаем арабский символ из числа
     return romanian_num
-roman_number = arabic_to_romanian(x)#вызов функции 
+roman_number = arabic_to_romanian(num)#вызов функции
 print(f'число {roman_number} ')
